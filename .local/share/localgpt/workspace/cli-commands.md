@@ -8,7 +8,7 @@ LocalGPT provides a comprehensive command-line interface with several subcommand
 
 ## Overview
 
-```bash
+```console
 localgpt <COMMAND>
 
 Commands:
@@ -85,7 +85,9 @@ Options:
 
 ## Examples
 
-```bash
+```python
+import localgpt
+
 # Start an interactive chat
 localgpt chat
 
