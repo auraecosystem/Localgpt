@@ -1,0 +1,9 @@
+import requests
+
+url = "https://api.machines.dev/v1/apps?org_slug=web4app"
+
+response = requests.request("GET", url, headers = { 
+"Authorization": "Bearer " 
+})
+
+print(response.text)
