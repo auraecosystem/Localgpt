@@ -1,1 +1,8 @@
-
+{
+  "mcpServers": {
+    "localgpt-gen": {
+      "command": "localgpt-gen",
+      "args": ["mcp-server"]
+    }
+  }
+}
